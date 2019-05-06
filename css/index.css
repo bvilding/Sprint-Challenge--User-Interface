@@ -59,9 +59,10 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Staatliches',
+    sans-serif;
 }
 
 p {
@@ -190,7 +191,20 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 400ms;
 }
+.middle-content .boxes .box:hover {
+    width: 100px;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.70;
+}
+
 
     /* Box Colors Per Spec */
 
