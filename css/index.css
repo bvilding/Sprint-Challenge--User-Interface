@@ -105,6 +105,7 @@ button:hover {
     background-color: white;
     position: fixed;
     top: 0;
+    border-bottom: 1px solid #f3f3f3;
 }
 
 .navbar nav {
@@ -130,7 +131,7 @@ button:hover {
     display: flex;
     align-content: center;
     flex-flow: column wrap;
-    margin: 100px 50px;
+    margin: 125px 50px;
 }
 
 /* End Container */
@@ -139,26 +140,24 @@ button:hover {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 50px;
     width: 100%;
-    height: 400px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 400px;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 2% 1%;
 }
 
 .top-content .top-content-img{
-    justify-content: center;
+    background-image: url('/img/jumbo.jpg');
     width: 100%;
-}
-
-.top-content .top-content-img img{
-    width: 100%;
+    height: 150px;
+    max-height: 300px;
+    background-position: center;
+    background-size: cover;
 }
 
 /* End Top Content */
@@ -254,7 +253,7 @@ button:hover {
 .bottom-content .text-container {
     display: flex;
     flex-flow: column;
-    width: 300px;
+    width: 250px;
 }
 
 /* End Bottom Content */
@@ -327,7 +326,11 @@ footer nav a:hover {
         justify-content: space-evenly;
         margin: 0 50px;
         width: 100%;
-        height: 500px;
         border-bottom: 1px dashed black;
+    }
+
+    .top-content .text-container {
+        width: 90%;
+        padding: 2% 1%;
     }
 }
