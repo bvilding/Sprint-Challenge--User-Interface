@@ -1,0 +1,64 @@
+/* Borrows parent styles from Index.css */
+
+/* Top Content */
+.text-container-about{
+	width: 90%;
+	justify-content: center;
+    padding: 0 1%;
+	padding-bottom: 20px;
+}
+
+/* End Top Content */
+/* Middle Content */
+
+.middle-content-about {
+	width: 100%;
+	border-bottom: 1px dashed black;
+	margin: 0 50px;
+	padding: 25px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: space-between;
+}
+
+.middle-content-about .card {
+	width: 300px;
+	margin: 20px;
+	display: flex;
+	flex-flow: column;
+	box-shadow: 0px 0px 15px lightgray;
+	transition: 1s;
+	border-bottom: 1px dashed black;
+}
+
+.middle-content-about .card:hover {
+	width: 310px;
+	margin: 20px;
+	display: flex;
+	flex-flow: column;
+	box-shadow: -2px -2px 50px lightgray;
+}
+
+.middle-content-about .card img {
+	width: 100%;
+}
+
+.middle-content-about .card .card-content {
+	height: 225px;
+	width: 300px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	padding: 15px;
+}
+
+/* End Middle Content */
+/* Bottom Content */
+.bottom-content-about {
+	display: flex;
+	justify-items: flex-start;
+	flex-flow: column;
+	margin: 0 50px;
+	padding: 25px;
+}
